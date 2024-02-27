@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "IndexFont";
+    src: url(Breaking\ Bad.ttf);
+}
+.main{
+    font-family: "IndexFont";
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.tabla{
+    font-family: "Helvetica";
+    text-align: center;
+    background-color: #0c3e11;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+table, tr, td{
+    background-color: #2b2d22;
+    text-align: center;
+    font-family: "Helvetica";
+    border:2px solid #2b2d22;
+    color: #2b2d22;
+    font-size: 7px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* He cambiado tamaños de las letras en la tabla diferente al enunciado, he creido que me quedaba mejor así */
+#simbolo{
+    font-size: 28px; 
+    font-weight: bold;
+    color: #2b2d22;
+}
+td{
+    table-layout: fixed;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    color: #2b2d22;
+}
+.elemento{
+    width: 50px;
+    height: 50px;
+}
+.elemento2{
+    width: 50px;
+}
+#verde{
+    background-color: #b7dc1d;
+}
+#morado{
+    background-color: #ac8fd1;
+}
+#beige{
+    background-color: #eef5c8;
+}
+#beis{
+    background-color: #daef76;
+}
+#verde2{
+    background-color: #8ba811;
+}
+#verde3{
+    background-color: #637124;
+}
+#lima{
+    background-color: #c6e34a;
+}
+#gris{
+    background-color: #bcc39f;
+}
+#gris2{
+    background-color: #818e4e;
+}
+#mostaza{
+    background-color: #c5c62a;
+}
+h1{
+    font-family: "Helvetica";
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+form{
+    width: cover;
+    font-family: "Helvetica";
+    text-align: left;
+    color: black;
+    font-size: 30px;
+}
+#datos{
+    width: 20%;
+}
+#numero{
+    width: 3%;
+}
+#comentarios{
+    width: 100%;
+}

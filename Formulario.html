@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alberto Santos">
+    <link rel="icon" href="IMG/icon.png" type="image/icon">
+    <link rel="stylesheet" href="CSS/BreakingBad.css">
+    <title>QueVeo - Breaking Bad - Formulario</title>
+</head>
+<body class="main">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Ficha del Usuario</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre <input id="datos" type="text" placeholder="Indica tu nombre de pila. Ejemplo: Alberto" required>
+                <br>
+                <br>Apellidos <input id="datos" type="text" placeholder="Indica tus apellidos. Ejemplo: Santos Galdiano" required>
+                <br>
+                <br>DNI <input id="datos" type="text" placeholder="Indica tu DNI. Ejemplo: XXXXXXXXL">
+                <br>
+                <br>Introduzca su correo:<input type="email" name="mail" id="datos" placeholder="alberto@unir.fp" required>
+                <br>
+                <br>Sexo del usuario:
+                    <select name="Sexo" id="">
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                    </select>
+                <br>
+                <br>Fecha de Nacimiento: <input type="date" name="" id="">
+                <br>
+                <br><legend>Dirección Postal:</legend>
+                Calle <input type="text" placeholder="Calle....">
+                Número <input id="numero" type="text" placeholder="12...">
+                Piso <input id="numero" type="text" placeholder="1º...">
+                <br>Código Postal <input type="text" placeholder="26003...">
+                Ciudad <input type="text" placeholder="...">
+                País <input type="text" placeholder="...">
+            </fieldset>
+            <fieldset>
+                <legend>Personaje</legend>
+                Seleccione opción:<input list="Personaje">
+                    <datalist id="Personaje">
+                        <option value="Jessie Pinkman"></option>
+                        <option value="Walter White"></option>
+                        <option value="Saul Goodman"></option>
+                        <option value="Gustavo Fring"></option>
+                        <option value="Pollos Hermanos"></option>
+                        <option value="Otros personajes"></option>
+                    </datalist>
+            </fieldset>
+            <br>Comentarios: <br><textarea name="opiniones" id="comentarios" cols="30" rows="10" minlength="5" maxlength="240" 
+              placeholder="Escribe aquí sus observaciones..."></textarea>
+            <br><input type="submit" value="Enviar"> <input type="reset" value="Eliminar"> <input type="file" name="" id="" value="Adjuntar Archivos" accept=".pdf, .png" multiple>
+        </fieldset>
+    </form>
+</body>
+</html>
